@@ -12,17 +12,9 @@
 	</div>
 
 	<nav>
-		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/comic' ? 'page' : undefined}>
-				<a href="/comic">Comic</a>
-			</li>
-		</ul>
+		<a href="/">Portfolio</a>
+		<a href="/about">About</a>
+		<a href="/comic">Comic</a>
 	</nav>
 
 	<div class="corner">
