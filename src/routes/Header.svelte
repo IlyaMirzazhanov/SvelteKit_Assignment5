@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import telegram from '$lib/images/telegram.svg';
 	import github from '$lib/images/github.svg';
+	import {base} from "$app/paths";
 </script>
 
 <header>
@@ -12,9 +13,9 @@
 	</div>
 
 	<nav>
-		<a href="/">Portfolio</a>
-		<a href="/about">About</a>
-		<a href="/comic">Comic</a>
+			<a href="{base}/">Portfolio</a>
+			<a href="{base}/about">About</a>
+			<a href="{base}/comic">Comic</a>
 	</nav>
 
 	<div class="corner">
