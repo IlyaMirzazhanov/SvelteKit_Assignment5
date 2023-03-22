@@ -1,5 +1,5 @@
 <script>
-	import welcome_fallback from '$lib/images/ilya.jpg';
+	import my_pic from '$lib/images/ilya.jpg';
 </script>
 
 <svelte:head>
@@ -9,7 +9,7 @@
 
 <section>
 	<h1>
-	<img src={welcome_fallback} alt="Welcome" />
+	<img src={my_pic} alt="picture of myself" />
 
 	<br />	Meet<br />Ilya Mirzazhanov
 	</h1>
@@ -26,21 +26,5 @@
 
 	h1 {
 		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
 	}
 </style>
