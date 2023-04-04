@@ -9,8 +9,10 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --write ./src/**/*.{js,svelte,html,ts}",
+		"lint": "eslint './src/**/*.{js,ts,svelte}'",
+		"lint:fix": "eslint --fix './src/**/*.{js,ts,svelte}'",
+		"prelint": "npm run format"
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",

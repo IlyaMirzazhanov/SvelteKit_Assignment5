@@ -13,9 +13,11 @@
 	</div>
 
 	<nav>
+		<nav>
 			<a href="{base}/">Portfolio</a>
 			<a href="{base}/about">About</a>
 			<a href="{base}/comic">Comic</a>
+		</nav>
 	</nav>
 
 	<div class="corner">

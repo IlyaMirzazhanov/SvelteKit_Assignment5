@@ -23,7 +23,7 @@
     <p>Processing...</p>
   {:then comic}
     <div id="comic">
-      <img id="img" src={comic.img} />
+      <img id="img" src={comic.img} alt="xkcd comic"/>
       <div>
         <span class="span-title">Title of comic: </span>
         <span class="span-content" id="comic_title">{comic.title}</span>
