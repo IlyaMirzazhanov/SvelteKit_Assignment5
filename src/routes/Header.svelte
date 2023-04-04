@@ -1,5 +1,4 @@
 <script>
-	import { page } from '$app/stores';
 	import telegram from '$lib/images/telegram.svg';
 	import github from '$lib/images/github.svg';
 	import {base} from "$app/paths";
