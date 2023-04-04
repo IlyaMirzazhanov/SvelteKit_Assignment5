@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>XKCD</title>
+	<meta name="description" content="XKCD comic" />
+</svelte:head>
+
 <script lang="ts">
     import type { XCom } from "./Comic";
   
